@@ -1,0 +1,35 @@
+.FranklinGothicBookRegular {
+    font-family: "franklin-gothic-std", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.FranklinGothicBookItalic {
+    font-family: "franklin-gothic-std", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.FranklinGothicHeavyRegular {
+    font-family: "franklin-gothic-std", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.FranklinGothicHeavyItalic {
+    font-family: "franklin-gothic-std", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+}
+
+.FranklinGothicMediumCondRegular {
+    font-family: "franklin-gothic-std-cond", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.FranklinGothicDemiCondRegular {
+    font-family: "franklin-gothic-std-cond", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
