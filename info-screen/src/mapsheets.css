@@ -1,19 +1,37 @@
 body {
-    font-family:arial, sans=sans-serif;
-    margin: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
     background-color: white;
-    color: black;
 }
 
-header {
-    background-color: white;
-    color: black;
+.heading-container {
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.heading {
+    color: var(rgba(32, 32, 32, 1));
     text-align: center;
-    padding: 24px;
+    font-family: "franklin-gothic-std-cond", sans-serif;
+    font-size: 51px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 100%;
+    letter-spacing: -1.8px;
+    transform: scaleY(1.15);
 }
-
+.subheading {
+    color: var((32, 32, 32, 1));
+    font-family: "franklin-gothic-std-cond", sans-serif;
+    font-size: 36px;
+    font-style: bold;
+    font-weight: 400;
+    line-height: 100%;
+}
 .map-section{
     text-align: left;
+    font-style: bold;
 }
 
 .map-image {
@@ -39,8 +57,8 @@ header {
 .venue{
     color: white;
     background-color: rgba(32, 32, 32, 1);
-    padding: 16px;
-    width: 250px;
+    padding: 10px;
+    width: 200px;
 }
 
 footer {
@@ -57,4 +75,41 @@ footer a.active {
     color: rgb(24, 30, 141);
     padding: gray;
     font-weight: bold;
+}
+
+/* From Adobe Font Website */
+.FranklinGothicBookRegular {
+    font-family: "franklin-gothic-std", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.FranklinGothicBookItalic {
+    font-family: "franklin-gothic-std", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.FranklinGothicHeavyRegular {
+    font-family: "franklin-gothic-std", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.FranklinGothicHeavyItalic {
+    font-family: "franklin-gothic-std", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+}
+
+.FranklinGothicMediumCondRegular {
+    font-family: "franklin-gothic-std-cond", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.FranklinGothicDemiCondRegular {
+    font-family: "franklin-gothic-std-cond", sans-serif;
+    font-weight: 600;
+    font-style: normal;
 }
