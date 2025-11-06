@@ -1,16 +1,41 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>info-screen</title>
-    <!-- External CSS -->
-    <link rel="stylesheet" href="src/style.css">
-    <!-- Adobe Font - Franklin Gothic Std -->
-    <link rel="stylesheet" href="https://use.typekit.net/dqa2pst.css">
-  </head>
-  <body>
-    <h1 class="FranklinGothicHeavyRegular">Hi</h1>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>info-screen</title>
+  <!-- External CSS -->
+  <link rel="stylesheet" href="src/style.css">
+  <!-- Adobe Font - Franklin Gothic Std -->
+  <link rel="stylesheet" href="https://use.typekit.net/dqa2pst.css">
+</head>
+
+<body>
+  <video class="background-video" autoplay muted loop playsinline>
+    <source src="/video.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  <div class="headingContainer">  
+    <h1 class="heading">COPENHAGEN FASHION WEEK</h1>
+  </div>
+  <div class="subheadingContainer">
+    <h2 class="subheading">27 – 30 January 2026</h2>
+    <div class="sponsorContainer">
+      <p class="sponsorText">Powered by</p>
+      <img src="image.png" alt="Zalando logo" class="sponsorLogo">
+    </div>
+  </div>
+  <h1 id="changingText" class="bodyText"></h1>
+  <div class="touchContainer">
+    <img src="icon.png" alt="Icon" class="clickIcon">
+    <p class="touchText">Click to start</p>
+  </div>
+
+
+
+  <script src="src/text.js"></script>
+</body>
+
 </html>
