@@ -1,0 +1,60 @@
+body {
+    font-family:arial, sans=sans-serif;
+    margin: 10px;
+    background-color: white;
+    color: black;
+}
+
+header {
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 24px;
+}
+
+.map-section{
+    text-align: left;
+}
+
+.map-image {
+    width: 100%;
+    max-width: 100%;
+}
+
+.venues{
+    background-color: rgba(32, 32, 32, 1);
+    color: white;
+    padding: 10px;
+    padding-left: 10px;
+    text-align: left;
+}
+
+.venue-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    justify-content: space-around;
+}
+
+.venue{
+    color: white;
+    background-color: rgba(32, 32, 32, 1);
+    padding: 16px;
+    width: 250px;
+}
+
+footer {
+    text-align: center;
+    padding: 16px;
+    background-color: none;
+}
+footer a{
+    text-decoration: none;
+    color: #000;
+    margin: 0 8px;
+}
+footer a.active {
+    color: rgb(24, 30, 141);
+    padding: gray;
+    font-weight: bold;
+}
