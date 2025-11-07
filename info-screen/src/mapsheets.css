@@ -1,3 +1,15 @@
+:root {
+    --blackish: rgba(32, 32, 32, 1);
+    --seasaltish: rgba(254, 254, 254, 1);
+    --blueish: rgba(24, 30, 141, 1);
+    --peachish: rgba(171, 120, 102,1);
+    --cloudish: rgba(188, 188, 188, 1);
+    --font-family-heading: "franklin-gothic-std-cond", sans-serif;
+    --font-family-body: "franklin-gothic-std", sans-serif;
+}
+
+
+
 body {
     margin-left: 10px;
     margin-right: 10px;
@@ -8,10 +20,13 @@ body {
     margin-top: 0px;
     margin-left: 0px;
     margin-right: 0px;
+    padding-top: 5px;
 }
 
 .heading {
-    color: var(rgba(32, 32, 32, 1));
+    margin-top: 0px;
+    margin-bottom: 10px;
+    color: var(--blackish);
     text-align: center;
     font-family: "franklin-gothic-std-cond", sans-serif;
     font-size: 51px;
@@ -21,55 +36,111 @@ body {
     letter-spacing: -1.8px;
     transform: scaleY(1.15);
 }
-.subheading {
-    color: var((32, 32, 32, 1));
+.subheading.first {
+    color: var(--blackish);
     font-family: "franklin-gothic-std-cond", sans-serif;
     font-size: 36px;
-    font-style: bold;
-    font-weight: 400;
+    font-style: normal;
+    font-weight: 600;
     line-height: 100%;
+    margin-top: 25px;
+    margin-bottom: 0px;
+}
+.subheading.second {
+    color: var(--seasaltish);
+    font-family: "franklin-gothic-std-cond", sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%;
+    margin-top: 32px;
+    margin-bottom: 0px;
+    margin-left: -10px;
 }
 .map-section{
     text-align: left;
     font-style: bold;
+    margin-bottom: 0px;
+    
 }
 
 .map-image {
     width: 100%;
     max-width: 100%;
+    margin-top: 10px;
+    margin-bottom: 0px;
 }
 
 .venues{
     background-color: rgba(32, 32, 32, 1);
     color: white;
     padding: 10px;
-    padding-left: 10px;
+    padding-right: 0px;
+    padding-left: 26px;
+    padding-bottom: 60px;
     text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    min-height: 100px;
 }
 
 .venue-grid {
     display: flex;
     flex-wrap: wrap;
-    gap: 24px;
-    justify-content: space-around;
+    gap: 18px;
+    justify-content: flex-start;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    margin-left: 0px;
 }
 
+.venue ul {
+    list-style: none;
+    padding-left: 0px;
+    margin: 0px;
+}
 .venue{
     color: white;
     background-color: rgba(32, 32, 32, 1);
+    font-family: "franklin-gothic-std", sans-serif;
+    font-style: italic;
     padding: 10px;
-    width: 200px;
+    width: 140px;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.venue h3 {
+    font-family: "franklin-gothic-std", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    min-height: 40px;
 }
 
 footer {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
     text-align: center;
-    padding: 16px;
-    background-color: none;
+    padding: 12px 0;
+    padding-bottom: 14px;
+    background-color: var(--seasaltish);
+    display: inline-block;
+    transform: scaleY(1.2);
+    z-index: 1000;
 }
 footer a{
     text-decoration: none;
     color: #000;
     margin: 0 8px;
+    font-weight: bold;
+    font-family: "franklin-gothic-std", sans-serif;
 }
 footer a.active {
     color: rgb(24, 30, 141);
