@@ -1,0 +1,186 @@
+body {
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: white;
+}
+
+.heading-container {
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 5px;
+}
+
+.heading {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    color: var(--blackish);
+    text-align: center;
+    font-family: "franklin-gothic-std-cond", sans-serif;
+    font-size: 51px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 100%;
+    letter-spacing: -1.8px;
+    transform: scaleY(1.15);
+}
+
+.subheading-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px;
+    margin-top: 20px;
+}
+
+.subheading {
+    color: var(--blackish);
+    font-family: "franklin-gothic-std-cond", sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%;
+    margin: 0px
+}
+
+.schedule-container {
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 600px;
+    background-color: var(--seasaltish);
+}
+
+.schedule-top-category-bar {
+    position: absolute;
+    right: 10px;
+    height: 20px;
+    width: 485px;
+    /*background-color: aqua;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.schedule-top-category-bar > span {
+    color: var(--blackish);
+    font-family: "franklin-gothic-std-cond", sans-serif;
+    margin-right: 2px;
+    width: 240px;
+    font-size: 10px;
+    /*background-color: brown;*/
+    text-align: center;
+}
+
+.schedule-vertical-bar {
+    position: absolute;
+    height: 600px;
+    width: 35px;
+    /*background-color: bisque;*/
+}
+
+.schedule-venues-text-bar {
+    color: var(--cloudish);
+    font-family: "franklin-gothic-std-cond", sans-serif;
+    position: absolute;
+    font-size: 10px;
+    top: 4px;
+    left: 4px;
+}
+
+.schedule-vertical-bar-hours {
+    position: absolute;
+    top: 20px;
+    left: 8px;
+    /*background-color: aquamarine;*/
+    height: 580px;
+    width: 19px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.hour-line {
+    position: absolute;
+    border: none;
+    border-top: 2px dashed var(--cloudish);
+    background: none;
+    width: 490px;
+    height: 0;
+    left: 20px;
+    margin: 0;
+}
+
+.hour-line-now {
+    position: absolute;
+    border: none;
+    border-top: 2px dashed var(--blackish);
+    background: none;
+    width: 490px;
+    height: 0;
+    left: 20px;
+    margin: 0;
+}
+
+.schedule-hour {
+    color: var(--blackish);
+    font-family: "franklin-gothic-std-cond", sans-serif;
+}
+
+.event-blocks-container {
+    z-index: 10;
+    /*background-color: blueviolet;*/
+    position: relative;
+    left: 35px;
+    top: 30px;
+    height: 565px;
+    width: 485px;
+}
+
+.event-block {
+    position: absolute;
+    background-color: var(--blackish);
+}
+
+.block-heading {
+    margin-left: 2px;
+    font-size: 10px;
+    color: var(--seasaltish);
+    font-family: "franklin-gothic-std-cond", sans-serif;
+    font-weight: 400;
+}
+
+.block-subheading {
+    margin-left: 2px;
+    font-size: 9px;
+    color: var(--seasaltish);
+    font-family: "franklin-gothic-std-cond", sans-serif;
+    font-weight: 600;
+}
+
+.ticket-text {
+    margin-top: 4px;
+    margin-left: 2px;
+    font-size: 8px;
+    color: var(--seasaltish);
+    font-family: "franklin-gothic-std-cond", sans-serif;
+    font-weight: 600;
+}
+
+.ticket-icon {
+    position: relative;
+    top: 1px;
+}
+
+.event-block-image {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+.upcoming-events-container {
+    margin-top: 2px;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 185px;
+    background-color: gray;
+}
