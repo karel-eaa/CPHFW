@@ -1,14 +1,3 @@
-:root {
-    --blackish: rgba(32, 32, 32, 1);
-    --seasaltish: rgba(254, 254, 254, 1);
-    --blueish: rgba(24, 30, 141, 1);
-    --peachish: rgba(171, 120, 102,1);
-    --cloudish: rgba(188, 188, 188, 1);
-    --font-family-heading: "franklin-gothic-std-cond", sans-serif;
-    --font-family-body: "franklin-gothic-std", sans-serif;
-}
-
-
 
 body {
     margin-left: 10px;
@@ -71,18 +60,10 @@ body {
     margin-bottom: 0px;
 }
 
-.venues{
-    background-color: rgba(32, 32, 32, 1);
-    color: white;
-    padding: 10px;
-    padding-right: 0px;
-    padding-left: 26px;
-    padding-bottom: 60px;
-    text-align: left;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    min-height: 100px;
+.schedule{
+    background-color: var(--seasaltish);
+    width: 540px;
+    height: 580px;
 }
 
 .venue-grid {
@@ -157,4 +138,31 @@ body {
     font-family: "franklin-gothic-std-cond", sans-serif;
     font-weight: 600;
     font-style: normal;
+}
+
+.schedule-header {
+    display: flex;
+    width: 540px;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.schedule-navigation {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.schedule-navigation-button {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+.schedule-navigation-button{
+    color: var(--blackish);
+}
+
+.inactive{
+    color: var(--seasaltish);
 }

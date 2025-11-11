@@ -4,6 +4,17 @@
     box-sizing: border-box;
 }
 
+:root {
+    --blackish: rgba(32, 32, 32, 1);
+    --seasaltish: rgba(248, 248, 248, 1);
+    --blueish: rgba(24, 30, 141, 1);
+    --peachish: rgba(171, 120, 102,1);
+    --cloudish: rgba(188, 188, 188, 1);
+    --font-family-heading: "franklin-gothic-std-cond", sans-serif;
+    --font-family-body: "franklin-gothic-std", sans-serif;
+}
+
+
 .background-video {
     position: fixed;
     top: 0;
@@ -44,7 +55,7 @@ body {
     font-family: "franklin-gothic-std-cond", sans-serif;
     font-size: 36px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 200;
     line-height: 100%;
 }
 
@@ -164,4 +175,33 @@ body {
     font-family: "franklin-gothic-std-cond", sans-serif;
     font-weight: 600;
     font-style: normal;
+}
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    text-align: center;
+    padding: 12px 0;
+    padding-bottom: 14px;
+    background-color: white;
+    display: inline-block;
+    transform: scaleY(1.2);
+    z-index: 1000;
+}
+footer a{
+    text-decoration: none;
+    color: #000;
+    margin: 0 8px;
+    font-weight: bold;
+    font-family: "franklin-gothic-std", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+footer a.active {
+    color: rgb(24, 30, 141);
+    padding: gray;
+    font-weight: normal;
+    text-decoration: underline;
 }
