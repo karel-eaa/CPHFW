@@ -20,7 +20,7 @@ body {
 }
 
 .heading-container {
-    margin-top: 0px;
+    margin-top: -8px;
     margin-left: 0px;
     margin-right: 0px;
     padding-top: 5px;
@@ -45,7 +45,7 @@ body {
     justify-content: space-between;
     align-items: center;
     margin: 0px;
-    margin-top: 20px;
+    margin-top: 12px;
 }
 
 .subheading {
@@ -97,7 +97,7 @@ body {
     font-family: "franklin-gothic-std", sans-serif;
     font-weight: 400;
     font-style: normal;
-    margin-top: 5px;
+    margin-top: 10px;
     margin-bottom: 20px;
 }
 
@@ -133,8 +133,8 @@ body {
     font-weight: 400;
     font-style: italic;
     font-size: 16px;
-    margin-top: 24px;
-    margin-bottom: 24px;
+    margin-top: 26px;
+    margin-bottom: 36px;
 }
 
 
