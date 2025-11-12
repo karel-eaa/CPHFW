@@ -4,10 +4,29 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>mobile-app</title>
+    <title>Copenhagen Fashion Week 2026 -Mobile app</title>
     <link rel="stylesheet" href="src/style.css">
   </head>
-  <body>
-    <h1>Hi</h1>
+<body>
+  <video class="background-video" autoplay muted loop playsinline>
+    <source src="public/video copy.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  <div class="headingContainer">
+    <h1 class="heading">COPENHAGEN FASHION WEEK</h1>
+  </div>
+    <div class="sponsorContainer">
+      <p class="sponsorText">powered by</p>
+      <img src="public/image copy.png" alt="Zalando logo" class="sponsorLogo">
+    </div>
+
+  <div id="click-target"
+  style="position: absolute; top: 0; height: 100vh; width: 100%; background-color: transparent;"
+  onclick="screenClick()"
+  >
+  </div>
+
+  <script src="src/text.js"></script>
+  <script src="src/click.js"></script>
   </body>
 </html>
