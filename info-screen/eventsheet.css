@@ -150,6 +150,11 @@ body {
 
 }
 
+.icon {
+    width: 12px;
+    margin-left: 5px
+}
+
 .map-qr {
     display: flex;
     justify-content: space-between;

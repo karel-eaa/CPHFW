@@ -16,6 +16,9 @@ body {
     background-color: white;
 }
 
+main {
+    padding-bottom: 55px;
+}
 .heading-container {
     margin-top: 0px;
     margin-left: 0px;
@@ -48,22 +51,135 @@ body {
     margin-bottom: 0px;
 }
 
-.event-card {
+.filters {
+    display: flex;
+    gap: 5px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.filter-btn {
     background-color: var(--blackish);
     color: white;
+    width: 200px;
+    font-family: "franklin-gothic-std", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    border: none;
+    padding: 8px 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.filter-icon {
+    width: 14px;
+    height: 14px;
+    margin-right: 10px;
+}
+
+.arrow {
+    vertical-align: middle; 
+    position: relative;
+    top: 0px; 
+    margin-left: 10px;
+}
+.active-text {
+    font-family: "franklin-gothic-std", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    margin: 0px;
+    margin-top: 0px;
+    margin-right: 0px
+}
+
+.active-filters {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-family: "franklin-gothic-std", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 30px;
+    font-size: 14px;
+}
+
+.filter-tag {
+  background-color: var(--blueish);
+  color: var(--blackish);
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: white;
+  font-size: 12px;
+}
+
+.clear-filters {
+    background: none;
+    color: var(--blackish);
+    font-family: "franklin-gothic-std", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    margin: 0px;
+    margin-top: 0px;
+    margin-left: 15px;
+    margin-right: 5px;
+    border: none;
+    text-decoration: underline;
+
+}
+
+.event-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.event-card {
+    display: flex;
+    align-items: stretch;
+    background-color: var(--blackish);
+    color: var(--seasaltish);
+    overflow: hidden;
+    height: auto;
+}
+
+.event-image {
+    width: 28%;
+    object-fit: cover;
+}
+
+.event-info {
+    color: var(--seasaltish);
+    flex: 1;
+    padding: 15px;
+    font-family: "franklin-gothic-std", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.icon {
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
 }
 
 h3 {
-    font-family: "franklin-gothic-std-cond", sans-serif;
-    font-size: 24px;
+    font-family: "franklin-gothic-std", sans-serif;
+    font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: 100%;
+    margin-top: 5px;
+    margin-bottom: 35px;
 }
 h3 span {
-    font-family: "franklin-gothic-std", sans-serif;
-    font-size: 24px;
+    font-family: "franklin-gothic-std-cond", sans-serif;
+    font-size: 28px;
     font-style: normal;
     font-weight: 600;
     line-height: 100%;
+    display: block;
+    margin-top: 10px;
 }

@@ -77,7 +77,7 @@ body {
     padding: 10px;
     padding-right: 0px;
     padding-left: 26px;
-    padding-bottom: 60px;
+    padding-bottom: 80px;
     text-align: left;
     display: flex;
     flex-direction: column;
@@ -88,38 +88,43 @@ body {
 .venue-grid {
     display: flex;
     flex-wrap: wrap;
-    gap: 18px;
+    gap: 30px;
     justify-content: flex-start;
     margin-top: 20px;
     margin-bottom: 0px;
-    margin-left: 0px;
+    margin-left: 5px;
 }
 
 .venue ul {
     list-style: none;
     padding-left: 0px;
     margin: 0px;
+    margin-top: 15px;
 }
 .venue{
-    color: white;
+    color: var(--peachish);
     background-color: rgba(32, 32, 32, 1);
     font-family: "franklin-gothic-std", sans-serif;
     font-style: italic;
     padding: 10px;
-    width: 140px;
-    font-size: 14px;
-    margin-bottom: 20px;
+    width: 230px;
+    font-size: 16px;
+    margin-bottom: 10px;
 }
 
+.venue p .br{
+    color: var(--peachish);
+}
 .venue h3 {
-    font-family: "franklin-gothic-std", sans-serif;
-    font-size: 18px;
+    font-family: "franklin-gothic-std-cond", sans-serif;
+    font-size: 20px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 600;
     line-height: 100%;
     margin-top: 0px;
     margin-bottom: 0px;
-    min-height: 40px;
+    min-height: 30px;
+    color: var(--seasaltish);
 }
 
 /* From Adobe Font Website */
