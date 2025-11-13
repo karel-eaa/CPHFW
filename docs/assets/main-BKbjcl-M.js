@@ -1,0 +1,1 @@
+import"./modulepreload-polyfill-B5Qt9EMX.js";/* empty css              */const s=["RUNWAYS","WORKSHOPS","TALKS","SHOWROOMS"],t=document.getElementById("changingText");let e=0;setInterval(()=>{t.classList.add("fade-out"),t.classList.remove("fade-in"),setTimeout(()=>{t.textContent=s[e],t.classList.remove("fade-out"),t.classList.add("fade-in")},500),e=(e+1)%s.length},2e3);
