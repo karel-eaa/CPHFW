@@ -12,7 +12,7 @@ const eventsData = [
         place: "Nikolaj Kunsthal",
         locationDetail: "Nikolaj Kunsthal | 9 minutes by walk",
         entrance: "Registration required",
-        image: "illustrational0.jpg"
+        image: "/illustrational0.jpg"
     },
     {
         id: "2",
@@ -26,7 +26,7 @@ const eventsData = [
         place: "Skuespilhuset",
         locationDetail: "Skuespilhuset | 12 minutes by walk",
         entrance: "By invitation only",
-        image: "illustrational-1.png"
+        image: "/illustrational-1.png"
     },
     {
         id: "3",
@@ -40,7 +40,7 @@ const eventsData = [
         place: "Cecilie Bahnsen Boutique",
         locationDetail: "Cecilie Bahnsen Boutique | 15 minutes by walk",
         entrance: "Registration required",
-        image: "illustrational-2.jpg"
+        image: "/illustrational-2.jpg"
     },
     {
         id: "4",
@@ -54,7 +54,7 @@ const eventsData = [
         place: "Gabi Gamél Store",
         locationDetail: "Gabi Gamél Store | 8 minutes by walk",
         entrance: "By invitation only",
-        image: "illustrational-3.png"
+        image: "/illustrational-3.png"
     },
     {
         id: "5",
@@ -68,7 +68,7 @@ const eventsData = [
         place: "Nils Stærk Gallery",
         locationDetail: "Nils Stærk Gallery | 11 minutes by walk",
         entrance: "Public",
-        image: "illustrational-4.jpg"
+        image: "/illustrational-4.jpg"
     },
     {
         id: "6",
@@ -82,7 +82,7 @@ const eventsData = [
         place: "Skuespilhuset",
         locationDetail: "Skuespilhuset | 12 minutes by walk",
         entrance: "Public",
-        image: "illustrational-5.jpg"
+        image: "/illustrational-5.jpg"
     }
 ];
 
@@ -115,4 +115,8 @@ function navigateToEvent(eventId) {
     // Navigate to event.html with parameters
     window.location.href = `event.html?${params.toString()}`;
 }
+
+// Make functions globally available for other modules
+window.getEventById = getEventById;
+window.navigateToEvent = navigateToEvent;
 
