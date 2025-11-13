@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://use.typekit.net/dqa2pst.css">
 </head>
 <body>
+    <script src="src/event.js"></script>
     <header>
         <div class="heading-container">
             <h1 class="heading">COPENHAGEN FASHION WEEK</h1>
@@ -18,7 +19,7 @@
         <a href="#" class="back-button">Back</a>
     </section>
     <section class="image-section">
-        <img src="event-illustration.png.png" alt="Event Illustration" class="event-image">
+        <img src="public/event-illustration.png.png" alt="Event Illustration" class="event-image">
     </section>
     <section class="event-details">
         <p class="text-time">Today, 20:00 - 23:00</p>
@@ -35,7 +36,13 @@
             <img src="location-iconB.svg" alt="Location icon" class="icon">
             Nikolaj Kunsthal | 9 minutes by walk 
         </p>
-        <img src="specific-map.png.png" alt="Event location" class="location-map"></image>
+        <img src="specific-map.png.png" alt="Event location" class="location-map" id="map-image">
+    </div>
+    
+    <!-- Map Lightbox Modal -->
+    <div id="map-modal" class="map-modal">
+        <span class="map-modal-close">&times;</span>
+        <img class="map-modal-content" id="zoomed-map">
     </div>
     <div class="qr-box">
         <img src="image-qr-code.png" alt="QR code" class="qr-code">
@@ -49,9 +56,9 @@
     </section>
     <footer>
         <nav> 
-            <a href="#">Schedule</a> |
-            <a href="#" class="active">Upcoming events</a> |
-            <a href="#">Map</a>
+            <a href="schedule.html">Schedule</a> |
+            <a href="eventlist.html" class="active">Upcoming events</a> |
+            <a href="map.html">Map</a>
         </nav>
     </footer>
 </body>

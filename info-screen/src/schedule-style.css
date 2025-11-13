@@ -136,6 +136,10 @@ body {
     width: 485px;
 }
 
+.clickable-event {
+    transition: transform 0.2s, opacity 0.2s;
+}
+
 .event-block {
     position: absolute;
     background-color: var(--blackish);

@@ -1,3 +1,3 @@
 function screenClick() {
-    window.location.replace("/schedule");
+    window.location.replace("schedule.html");
 }
