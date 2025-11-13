@@ -139,7 +139,7 @@ function updateActiveFilters() {
         const date = new Date(selectedDateFilter + 'T00:00:00');
         const options = { weekday: 'long', day: '2-digit', month: '2-digit', year: 'numeric' };
         const formattedDate = date.toLocaleDateString('en-GB', options);
-        dateFilterTag.innerHTML = `${formattedDate}<img src="X.svg" alt="X" class="x-icon">`;
+        dateFilterTag.innerHTML = `${formattedDate}<img src="public/X.svg" alt="X" class="x-icon">`;
         dateFilterTag.style.display = 'inline-block';
         hasActiveFilters = true;
     } else if (dateFilterTag) {
@@ -148,7 +148,7 @@ function updateActiveFilters() {
     
     // Update place filter tag
     if (selectedPlaceFilter && placeFilterTag) {
-        placeFilterTag.innerHTML = `${selectedPlaceFilter}<img src="X.svg" alt="X" class="x-icon">`;
+        placeFilterTag.innerHTML = `${selectedPlaceFilter}<img src="public/X.svg" alt="X" class="x-icon">`;
         placeFilterTag.style.display = 'inline-block';
         hasActiveFilters = true;
     } else if (placeFilterTag) {
@@ -157,7 +157,7 @@ function updateActiveFilters() {
     
     // Update entrance filter tag
     if (selectedEntranceFilter && entranceFilterTag) {
-        entranceFilterTag.innerHTML = `${selectedEntranceFilter}<img src="X.svg" alt="X" class="x-icon">`;
+        entranceFilterTag.innerHTML = `${selectedEntranceFilter}<img src="public/X.svg" alt="X" class="x-icon">`;
         entranceFilterTag.style.display = 'inline-block';
         hasActiveFilters = true;
     } else if (entranceFilterTag) {
