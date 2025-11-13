@@ -1,7 +1,19 @@
+:root {
+    --blackish: rgba(32, 32, 32, 1);
+    --seasaltish: rgba(254, 254, 254, 1);
+    --blueish: rgba(24, 30, 141, 1);
+    --peachish: rgba(171, 120, 102,1);
+    --cloudish: rgba(188, 188, 188, 1);
+    --font-family-heading: "franklin-gothic-std-cond", sans-serif;
+    --font-family-body: "franklin-gothic-std", sans-serif;
+}
+
+
+
 body {
     margin-left: 10px;
     margin-right: 10px;
-    background-color: var(--seasaltish);
+    background-color: rgb(255, 255, 255);
     min-height: calc(100vh - 60px);
     display: flex;
     flex-direction: column;
@@ -210,7 +222,7 @@ footer {
 }
 footer a{
     text-decoration: none;
-    color: var(--blackish);
+    color: #000;
     margin: 0 8px;
     font-weight: bold;
     font-family: "franklin-gothic-std", sans-serif;
@@ -218,7 +230,7 @@ footer a{
     font-style: normal;
 }
 footer a.active {
-    color: var(--blueish);
+    color: rgb(24, 30, 141);
     padding: gray;
     font-weight: normal;
     text-decoration: underline;

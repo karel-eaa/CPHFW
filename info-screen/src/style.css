@@ -5,11 +5,11 @@
 }
 
 :root {
-    --blackish: #202020;
-    --seasaltish: #FEFEFE;
-    --blueish: #181E8D;
-    --peachish: #AB7866;
-    --cloudish: #BCBCBC;
+    --blackish: rgba(32, 32, 32, 1);
+    --seasaltish: rgba(248, 248, 248, 1);
+    --blueish: rgba(24, 30, 141, 1);
+    --peachish: rgba(171, 120, 102,1);
+    --cloudish: rgba(188, 188, 188, 1);
     --font-family-heading: "franklin-gothic-std-cond", sans-serif;
     --font-family-body: "franklin-gothic-std", sans-serif;
 }
@@ -29,7 +29,7 @@
 body {
     position: relative;
     z-index: 1;
-    background-color: var(--blackish);
+    background-color: #000;
 }
 
 .heading {
@@ -185,14 +185,14 @@ footer {
     text-align: center;
     padding: 12px 0;
     padding-bottom: 14px;
-    background-color: var(--seasaltish);
+    background-color: white;
     display: inline-block;
     transform: scaleY(1.2);
     z-index: 1000;
 }
 footer a{
     text-decoration: none;
-    color: var(--blackish);
+    color: #000;
     margin: 0 8px;
     font-weight: bold;
     font-family: "franklin-gothic-std", sans-serif;
@@ -200,7 +200,7 @@ footer a{
     font-style: normal;
 }
 footer a.active {
-    color: var(--blueish);
+    color: rgb(24, 30, 141);
     padding: gray;
     font-weight: normal;
     text-decoration: underline;
