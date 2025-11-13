@@ -1,19 +1,7 @@
-:root {
-    --blackish: rgba(32, 32, 32, 1);
-    --seasaltish: rgba(254, 254, 254, 1);
-    --blueish: rgba(24, 30, 141, 1);
-    --peachish: rgba(171, 120, 102,1);
-    --cloudish: rgba(188, 188, 188, 1);
-    --font-family-heading: "franklin-gothic-std-cond", sans-serif;
-    --font-family-body: "franklin-gothic-std", sans-serif;
-}
-
-
-
 body {
     margin-left: 10px;
     margin-right: 10px;
-    background-color: white;
+    background-color: var(--seasaltish);
 }
 
 .heading-container {
@@ -72,8 +60,8 @@ body {
 }
 
 .venues{
-    background-color: rgba(32, 32, 32, 1);
-    color: white;
+    background-color: var(--blackish);
+    color: var(--seasaltish);
     padding: 10px;
     padding-right: 0px;
     padding-left: 26px;
@@ -103,7 +91,7 @@ body {
 }
 .venue{
     color: var(--peachish);
-    background-color: rgba(32, 32, 32, 1);
+    background-color: var(--blackish);
     font-family: "franklin-gothic-std", sans-serif;
     font-style: italic;
     padding: 10px;
